@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link href="..//css/phpMM.css" rel="stylesheet" type="text/css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Products Record Form</title>
+</head>
+<body>
+<div id="header"><h1>AfroRoot</h1>
+<div id="form">Only use by Staff</div>
+<div id="content"></div>
+<h1>All product to be Registered</h1>
+<p> All records of the products need to be entered here before to be sold:</p>
+<form action="productForm.php" method="POST">
+<fieldset>
+<label for="proId">Product ID:</label>
+<input type="text" name="proId" size="10"/><br />
+<label for="proName">Product Name: </label>
+<input type="text" name="proName" size="20"/><br />
+<label for="makeYear">Year: </label>
+<input type="text" name="makeYear" size="20" /> <br />
+<label for="description">Description</label>
+<textarea name="description" cols="20" rows="5"></textarea><br />
+<label for="image_id">upload image:</label>
+<input type="file" name="image_id" size="30" />
+<label for="price">Price</label>
+<input type="text" name="price" size="10"/>
+</fieldset>
+
+<br />
+
+<fieldset class="right">
+
+<input type="submit" value="Enter" />
+<input type="reset" value="Cancel"/>
+</fieldset>
+
+</form>
+
+</div>
+
+<div id="footer"></div>
+
+</body>
+
+</html>

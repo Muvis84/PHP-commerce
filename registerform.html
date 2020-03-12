@@ -1,0 +1,150 @@
+<html>
+<head>
+<style type="text/css">
+.wrapper{
+   border:1px solid;
+   width:100%;
+   height:15%;
+   margin:0 auto;
+}
+/* style for the header with font and size */
+.header{
+   font-family:amiene;
+   font-size:72px;
+   font-color:#C0C0C0;
+   border-bottom:20px;
+   padding:15px;
+}
+.wrapper1{
+  border:1px solid;
+  width:100%;
+  height:5%;
+  margin: 0 auto;
+}
+ul
+{
+   list-style-type:none;
+   margin:1;
+   padding:1;
+   padding-top:7px;
+   padding-bottom:5px;
+}
+li
+{
+display:inline;
+}
+a:link,a:visited
+{
+font-weight:bold;
+color:#000000;
+text-align:center;
+padding:6px;
+text-decoration:italic;
+text-trasformation:upperCase;
+}
+a:hover,a:active
+{
+background-color:#00FFFF;
+}
+*/  file menu 
+.wrapper1{
+       border:1px solid;
+       width:100%;
+       height:6%;
+       margin:0 auto;
+}
+ #menu ul
+         {
+    margin :0px;
+    padding:0px;
+    list-style-type:none;
+   }
+ #menu a{
+      display:block;
+      width:8em;
+      margin-left:0em;
+      color:white;
+      background-color:#A9A9A9;
+      text-decoration:none;
+      text-lign:center;
+   }
+#menu a: hover{
+        background-color:#F0F8FF;
+}
+#menu li{
+      float:left;
+      margin-left:3em;
+}
+
+
+</style>
+<div class="wrapper">
+<div class="header">
+AfroRoots
+</div>
+</div>
+<div class="wrapper1">
+   <div id="menu">
+   <ul>
+   <li><a href="AfricanSculptures.php">African Sculpture</a></li>
+   <li><a href="homepage1.php">African Clothes</a></li>
+   <li><a href="MyAccount.php">My Account</a></li>
+   <li><a href="Cart.php">My Cart</a></li>
+   <li><a href="Help.ph">Help</a></li>
+   </ul>
+   </div>
+</div>
+  <title>AfroRoot</title>
+  </head>
+  <body>
+  <div id="header"><h1>Register Form: Afroroot For you</h1></div>
+  <div id="content">
+  <h1> Your details </h1>
+  <p>Please enter your details below to proceed to your purchase:</p>
+  <form action="RegisterForm.php" method="post">
+  <fieldset>
+  <label for="title"> Title : </label>
+  <select name="title">
+  <option value="title">title</option>
+  <option value="mr">Mr</option>
+  <option value="mrs"> Mrs</option>
+  <option value="ms">Ms</option>
+  <option value="miss">Miss</option>
+  <option value="dr">Dr</option>
+  </select>
+  <br/>
+  <label for="surname">Surname: </label>
+  <input type="text" name="surname"size="20"/><br />
+  <label for="firstname">First Name: </label>
+  <input type="text" name="firstname" size="20" /> <br />
+
+   
+ADDRESS:<br />
+<label for="address1">Line 1: </label>
+<input type="text" name="address1" size="20"/><br />
+<label for="address2">Line 2:</label>
+<input type="text" name="address2" size="20"/><br />
+<label for="town">City/Town: </label>
+<input type="text" name="town" size="20" /><br />
+<label for="postcode">Post-Code: </label>
+<input type="text" name="postcode" size="15"><br />
+<select name="country_id">
+<option value="country">Country</option>
+<option value="USA">United state</option>
+<option value="UK">Unite Kingdom</option>
+<option value="france">France</option>
+<option value="canada">Canada</option>
+<option value="australia">Australia</option>
+<option value="ireland">Ireland</option>
+<option value="italy">Italy</option>
+</select>
+</fieldset>
+<br />
+<fieldset class="right">
+<input type="submit" value="Register"/>
+<input type="reset" value="Clear"/>
+</fieldset>
+</form>
+  </div>
+  </body>
+  </html>
